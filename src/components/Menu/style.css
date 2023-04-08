@@ -1,0 +1,23 @@
+.menu {
+	display: flex;
+	background-color: #D0302F;
+	margin-bottom: 2rem;
+}
+
+.menu a {
+	display: block;
+	padding: 1rem 2rem;
+	color: #f5deb3;
+	text-decoration: none;
+	margin-bottom: 0;
+
+}
+
+.menu a:hover {
+	background-color: rgb(208, 48, 47,0.9);
+	color:#083948;
+}
+
+.menu a.active {
+	background-color: rgb(197, 197, 197,0.3);
+}
